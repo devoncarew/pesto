@@ -13,7 +13,7 @@ void main() {
     binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
 
   testWidgets('Pesto appbar heroics', (WidgetTester tester) async {
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(PestoApp());
 
     await tester.tap(find.text('Roasted Chicken'));
     await tester.pumpAndSettle();
@@ -27,7 +27,7 @@ void main() {
 
   testWidgets('Pesto can be scrolled all the way down',
       (WidgetTester tester) async {
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(PestoApp());
 
     await tester.fling(
         find.text('Roasted Chicken'), const Offset(0.0, -200.0), 10000.0);

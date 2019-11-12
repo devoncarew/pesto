@@ -10,10 +10,12 @@ flutter doctor
 # We should be using dart from ../flutter/bin/cache/dart-sdk/bin/dart.
 echo "which dart: " `which dart`
 
+# install packages
+flutter pub get
+
 # Verify that the libraries are error free.
-pub global activate tuneup
-pub global run tuneup check
+flutter analyze
 
 # Run the tests.
-# TODO: install flutter, run the tests
+# TODO: run the tests
 # flutter test

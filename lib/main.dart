@@ -4,12 +4,11 @@
 
 import 'package:flutter/material.dart';
 
-import 'pesto.dart';
+import 'src/pesto.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(PestoApp());
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class PestoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

@@ -2,11 +2,13 @@
 
 [![Build Status](https://travis-ci.org/devoncarew/pesto.svg?branch=master)](https://travis-ci.org/devoncarew/pesto)
 
-A new Flutter project.
+Pesto sample app
 
-## Getting Started
+![Image of the pesto sample app](docs/pesto.png)
 
-This demo has been extracted from the larger flutter_gallery example.
+This demo has been extracted from the larger
+[flutter_gallery](https://github.com/flutter/flutter/tree/master/examples/flutter_gallery)
+example.
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

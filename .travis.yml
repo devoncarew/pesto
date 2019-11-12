@@ -2,6 +2,9 @@ language: dart
 dart:
   - dev
 
+install:
+  - git clone https://github.com/flutter/flutter.git ../flutter
+
 script: ./tool/travis.sh
 
 # Only building master means that we don't run two builds for each pull request.

@@ -3,7 +3,7 @@
 # Fast fail the script on failures.
 set -e
 
-export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
+export PATH=`pwd`/../flutter/bin:`pwd`/../flutter/bin/cache/dart-sdk/bin:$PATH
 flutter config --no-analytics
 flutter doctor
 

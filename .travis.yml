@@ -3,7 +3,7 @@ dart:
   - dev
 
 install:
-  - git clone https://github.com/flutter/flutter.git ./flutter
+  - git clone https://github.com/flutter/flutter.git ../flutter
 
 script: ./tool/travis.sh
 

@@ -1,0 +1,65 @@
+name: pesto
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  flutter_gallery_assets: 0.1.9+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - packages/flutter_gallery_assets/food/butternut_squash_soup.png
+    - packages/flutter_gallery_assets/food/cherry_pie.png
+    - packages/flutter_gallery_assets/food/chopped_beet_leaves.png
+    - packages/flutter_gallery_assets/food/fruits.png
+    - packages/flutter_gallery_assets/food/pesto_pasta.png
+    - packages/flutter_gallery_assets/food/roasted_chicken.png
+    - packages/flutter_gallery_assets/food/spanakopita.png
+    - packages/flutter_gallery_assets/food/spinach_onion_salad.png
+    - packages/flutter_gallery_assets/food/icons/fish.png
+    - packages/flutter_gallery_assets/food/icons/healthy.png
+    - packages/flutter_gallery_assets/food/icons/main.png
+    - packages/flutter_gallery_assets/food/icons/meat.png
+    - packages/flutter_gallery_assets/food/icons/quick.png
+    - packages/flutter_gallery_assets/food/icons/spicy.png
+    - packages/flutter_gallery_assets/food/icons/veggie.png
+    - packages/flutter_gallery_assets/logos/pesto/logo_small.png
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: packages/flutter_gallery_assets/fonts/raleway/Raleway-Regular.ttf
+        - asset: packages/flutter_gallery_assets/fonts/raleway/Raleway-Medium.ttf
+          weight: 500
+        - asset: packages/flutter_gallery_assets/fonts/raleway/Raleway-SemiBold.ttf
+          weight: 600

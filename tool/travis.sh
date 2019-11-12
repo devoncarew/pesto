@@ -17,5 +17,4 @@ flutter pub get
 flutter analyze
 
 # Run the tests.
-# TODO: run the tests
-# flutter test
+flutter test

@@ -9,6 +9,12 @@ import 'package:flutter/material.dart';
 
 import 'src/pesto.dart';
 
+void main() {
+  setOverrideForDesktop();
+
+  runApp(PestoApp());
+}
+
 void setOverrideForDesktop() {
   if (kIsWeb) return;
 

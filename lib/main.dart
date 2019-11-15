@@ -21,6 +21,12 @@ void setOverrideForDesktop() {
   }
 }
 
+void main() {
+  setOverrideForDesktop();
+
+  runApp(new PestoApp());
+}
+
 class PestoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
